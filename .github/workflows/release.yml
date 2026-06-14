@@ -1,0 +1,27 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: googleapis/release-please-action@45996ed1f6d02564a971a2fa1b5860e934307cf7 # v5
+        id: release
+
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+        if: steps.release.outputs.release_created == 'true'
+
+      - name: Update floating major version tag
+        if: steps.release.outputs.release_created == 'true'
+        env:
+          TAG: v${{ steps.release.outputs.major }}
+        run: |
+          git tag -f "$TAG" "${{ steps.release.outputs.sha }}"
+          git push -f origin "$TAG"

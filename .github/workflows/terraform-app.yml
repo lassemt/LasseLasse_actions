@@ -59,10 +59,10 @@ jobs:
       - name: Cache Terraform providers
         uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5
         with:
-          path: ${{ inputs.working-directory }}/.terraform
-          key: terraform-${{ inputs.working-directory }}-${{ hashFiles(format('{0}/.terraform.lock.hcl', inputs.working-directory)) }}
+          path: ${{ inputs.working-directory }}/.terraform/providers
+          key: terraform-providers-${{ inputs.working-directory }}-${{ hashFiles(format('{0}/.terraform.lock.hcl', inputs.working-directory)) }}
           restore-keys: |
-            terraform-${{ inputs.working-directory }}-
+            terraform-providers-${{ inputs.working-directory }}-
 
       - name: Terraform Init
         working-directory: ${{ inputs.working-directory }}
@@ -178,10 +178,10 @@ jobs:
       - name: Cache Terraform providers
         uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5
         with:
-          path: ${{ inputs.working-directory }}/.terraform
-          key: terraform-${{ inputs.working-directory }}-${{ hashFiles(format('{0}/.terraform.lock.hcl', inputs.working-directory)) }}
+          path: ${{ inputs.working-directory }}/.terraform/providers
+          key: terraform-providers-${{ inputs.working-directory }}-${{ hashFiles(format('{0}/.terraform.lock.hcl', inputs.working-directory)) }}
           restore-keys: |
-            terraform-${{ inputs.working-directory }}-
+            terraform-providers-${{ inputs.working-directory }}-
 
       - name: Terraform Init
         working-directory: ${{ inputs.working-directory }}

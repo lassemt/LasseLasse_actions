@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.3](https://github.com/lassemt/LasseLasse_actions/compare/v1.1.2...v1.1.3) (2026-06-23)
+
+
+### Miscellaneous
+
+* **deps:** bump actions/checkout from 6.0.3 to 7.0.0 ([c846fa7](https://github.com/lassemt/LasseLasse_actions/commit/c846fa7341b15753f72045532ca813e280a90f3d))
+* **deps:** bump actions/checkout from 6.0.3 to 7.0.0 ([d280f9c](https://github.com/lassemt/LasseLasse_actions/commit/d280f9c6f09b796c403f0d44d920231ee08e0a65))
+
 ## [1.1.2](https://github.com/lassemt/LasseLasse_actions/compare/v1.1.1...v1.1.2) (2026-06-16)
 
 

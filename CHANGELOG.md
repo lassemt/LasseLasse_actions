@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.4](https://github.com/lassemt/LasseLasse_actions/compare/v1.1.3...v1.1.4) (2026-06-30)
+
+
+### Miscellaneous
+
+* **deps:** bump actions/cache from 5.0.5 to 6.1.0 ([54f6f6e](https://github.com/lassemt/LasseLasse_actions/commit/54f6f6e4921b58addc4ef4cc5c8f80566d5c7934))
+* **deps:** bump actions/cache from 5.0.5 to 6.1.0 ([42fa553](https://github.com/lassemt/LasseLasse_actions/commit/42fa553ac89fc0c4f525502e27516247117645ea))
+* **deps:** bump aws-actions/configure-aws-credentials ([a1654ae](https://github.com/lassemt/LasseLasse_actions/commit/a1654ae5d8eb78c53f2855285b6d5b2c85c4598d))
+* **deps:** bump aws-actions/configure-aws-credentials from 6.2.0 to 6.2.1 ([bbeb8fd](https://github.com/lassemt/LasseLasse_actions/commit/bbeb8fd73597a67c90a79eec84db36563861d35e))
+
 ## [1.1.3](https://github.com/lassemt/LasseLasse_actions/compare/v1.1.2...v1.1.3) (2026-06-23)
 
 

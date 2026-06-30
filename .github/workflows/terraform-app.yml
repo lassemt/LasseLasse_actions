@@ -57,7 +57,7 @@ jobs:
           terraform_version: ${{ inputs.terraform-version }}
 
       - name: Cache Terraform providers
-        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v5
         with:
           path: ${{ inputs.working-directory }}/.terraform/providers
           key: terraform-providers-${{ inputs.working-directory }}-${{ hashFiles(format('{0}/.terraform.lock.hcl', inputs.working-directory)) }}
@@ -176,7 +176,7 @@ jobs:
           terraform_wrapper: false
 
       - name: Cache Terraform providers
-        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v5
         with:
           path: ${{ inputs.working-directory }}/.terraform/providers
           key: terraform-providers-${{ inputs.working-directory }}-${{ hashFiles(format('{0}/.terraform.lock.hcl', inputs.working-directory)) }}

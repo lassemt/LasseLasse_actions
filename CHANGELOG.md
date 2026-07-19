@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.5](https://github.com/lassemt/LasseLasse_actions/compare/v1.1.4...v1.1.5) (2026-07-19)
+
+
+### Miscellaneous
+
+* **deps:** bump aws-actions/configure-aws-credentials ([a187ce8](https://github.com/lassemt/LasseLasse_actions/commit/a187ce8c688f0f2c34adfe6a46a0c07062dacac8))
+* **deps:** bump aws-actions/configure-aws-credentials from 6.2.1 to 6.2.2 ([c0773cd](https://github.com/lassemt/LasseLasse_actions/commit/c0773cd1cfaeffb9b80d71c5784b9cf966b44225))
+
 ## [1.1.4](https://github.com/lassemt/LasseLasse_actions/compare/v1.1.3...v1.1.4) (2026-06-30)
 
 

@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.6](https://github.com/lassemt/LasseLasse_actions/compare/v1.1.5...v1.1.6) (2026-07-29)
+
+
+### Miscellaneous
+
+* **deps:** bump actions/checkout from 7.0.0 to 7.0.1 ([15de775](https://github.com/lassemt/LasseLasse_actions/commit/15de775478bfecb0ded64afdb33c1b32919b555b))
+* **deps:** bump actions/checkout from 7.0.0 to 7.0.1 ([49f6b8a](https://github.com/lassemt/LasseLasse_actions/commit/49f6b8a24717a900710e5346b574b769ae1434e9))
+* **deps:** bump aws-actions/configure-aws-credentials ([f624b21](https://github.com/lassemt/LasseLasse_actions/commit/f624b2176bb385a9d234ea7dfb3a532a52bc82a3))
+* **deps:** bump aws-actions/configure-aws-credentials from 6.2.2 to 6.2.3 ([2d68fea](https://github.com/lassemt/LasseLasse_actions/commit/2d68feaf453a74b8727d551a532578d4baaaf155))
+* **deps:** bump reviewdog/action-actionlint from 1.72.0 to 1.73.0 ([3f85985](https://github.com/lassemt/LasseLasse_actions/commit/3f85985ad53d5bd29c921941021e3f0ce1e4c04a))
+* **deps:** bump reviewdog/action-actionlint from 1.72.0 to 1.73.0 ([72d4765](https://github.com/lassemt/LasseLasse_actions/commit/72d47655fc7d480295a94726b4f9ecd0cf3cab64))
+
 ## [1.1.5](https://github.com/lassemt/LasseLasse_actions/compare/v1.1.4...v1.1.5) (2026-07-19)
 
 

@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.10](https://github.com/lassemt/LasseLasse_actions/compare/v1.1.9...v1.1.10) (2026-09-28)
+
+
+### Miscellaneous
+
+* **deps:** bump reviewdog/action-actionlint from 1.75.0 to 1.77.0 ([b831be6](https://github.com/lassemt/LasseLasse_actions/commit/b831be69e3791a057a1d44302c1efbdde627ea63))
+* **deps:** bump reviewdog/action-actionlint from 1.75.0 to 1.77.0 ([a202535](https://github.com/lassemt/LasseLasse_actions/commit/a202535879b1839cdf9e532cd6597f2c0d446acf))
+
 ## [1.1.9](https://github.com/lassemt/LasseLasse_actions/compare/v1.1.8...v1.1.9) (2026-09-24)
 
 

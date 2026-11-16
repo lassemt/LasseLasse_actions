@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.11](https://github.com/lassemt/LasseLasse_actions/compare/v1.1.10...v1.1.11) (2026-11-16)
+
+
+### Miscellaneous
+
+* **deps:** bump amannn/action-semantic-pull-request ([cfc1b1c](https://github.com/lassemt/LasseLasse_actions/commit/cfc1b1c00ba329f8ff6583c1fd696b1475269152))
+* **deps:** bump amannn/action-semantic-pull-request from 6.1.1 to 6.1.2 ([ba6d021](https://github.com/lassemt/LasseLasse_actions/commit/ba6d021402c1a7825a4d0d980922b476c7556390))
+* **deps:** bump reviewdog/action-actionlint from 1.77.0 to 1.84.0 ([5383fdb](https://github.com/lassemt/LasseLasse_actions/commit/5383fdb244e700343ddccd5ac45a1d81dbd7b9dc))
+* **deps:** bump reviewdog/action-actionlint from 1.77.0 to 1.84.0 ([5d1c729](https://github.com/lassemt/LasseLasse_actions/commit/5d1c729925c6765edc55a1effb9267d935cebc27))
+
 ## [1.1.10](https://github.com/lassemt/LasseLasse_actions/compare/v1.1.9...v1.1.10) (2026-09-28)
 
 

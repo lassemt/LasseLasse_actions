@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.12](https://github.com/lassemt/LasseLasse_actions/compare/v1.1.11...v1.1.12) (2026-11-23)
+
+
+### Miscellaneous
+
+* **deps:** bump reviewdog/action-actionlint from 1.84.0 to 1.84.1 ([5e34145](https://github.com/lassemt/LasseLasse_actions/commit/5e34145ccc80a409b7f507b5a63de17facaff45e))
+* **deps:** bump reviewdog/action-actionlint from 1.84.0 to 1.84.1 ([e0d98c8](https://github.com/lassemt/LasseLasse_actions/commit/e0d98c846a004740760d30e8dcf572161c65ee56))
+
 ## [1.1.11](https://github.com/lassemt/LasseLasse_actions/compare/v1.1.10...v1.1.11) (2026-11-16)
 
 
